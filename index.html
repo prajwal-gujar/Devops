@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Prajwal Gujar — DevOps Engineer portfolio showcasing Azure, Azure DevOps, Jenkins, Terraform, Docker, Kubernetes, SonarQube, Prometheus and Grafana.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Prajwal Gujar | DevOps Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Prajwal Gujar home"><span class="brand-mark">pg<span>.</span></span><span class="brand-label">DEVOPS ENGINEER</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact" class="nav-cta">Let's connect <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> BUILDING · AUTOMATING · IMPROVING</div>
+        <h1>Hi, I'm Prajwal.<br><span class="gradient-text">I build reliable</span><br>cloud delivery.</h1>
+        <p class="hero-description">DevOps Engineer with hands-on experience in Microsoft Azure, Azure DevOps, Jenkins and CI/CD automation. I provision infrastructure with Terraform, deploy containerized applications with Docker and Kubernetes/AKS, and use Prometheus, Grafana and SonarQube to support monitoring and code quality.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↓</span></a>
+          <a class="button button-secondary" href="assets/Prajwal_Gujar_DevOps_Resume.pdf" download>Download resume <span>↓</span></a>
+        </div>
+        <div class="hero-meta"><span><i class="meta-line"></i> Azure-first cloud</span><span><i class="meta-line"></i> Automation mindset</span><span><i class="meta-line"></i> Monitoring & reliability</span></div>
+      </div>
+      <div class="terminal-card" aria-label="Illustrative terminal showing a CI/CD workflow">
+        <div class="terminal-top"><div class="window-dots"><b></b><b></b><b></b></div><span>delivery-pipeline.yaml</span><span class="terminal-status">● READY</span></div>
+        <div class="terminal-body">
+          <div class="terminal-comment"># a repeatable path to production</div>
+          <div><span class="line-no">01</span> <span class="code-key">trigger:</span> <span class="code-value">main</span></div>
+          <div><span class="line-no">02</span> <span class="code-key">stages:</span></div>
+          <div><span class="line-no">03</span> &nbsp; <span class="code-value">- validate</span> <span class="code-check">✓</span></div>
+          <div><span class="line-no">04</span> &nbsp; <span class="code-value">- build_and_test</span> <span class="code-check">✓</span></div>
+          <div><span class="line-no">05</span> &nbsp; <span class="code-value">- package_image</span> <span class="code-check">✓</span></div>
+          <div><span class="line-no">06</span> &nbsp; <span class="code-value">- deploy</span> <span class="code-pending">→</span></div>
+          <div class="terminal-divider"></div>
+          <div class="pipeline-label">DELIVERY TOOLCHAIN</div>
+          <div class="toolchain"><span>Azure</span><span>Azure DevOps</span><span>Terraform</span><span>Jenkins</span></div>
+          <div class="terminal-footer"><span><i class="status-dot"></i> workflow defined</span><span>repeatable by design</span></div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-wheel"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap section-block" id="about">
+      <div class="section-heading"><span class="section-index">01 / ABOUT</span><h2>Making delivery<br><span class="muted">less fragile.</span></h2></div>
+      <div class="about-content">
+        <p class="about-lead">I’m a DevOps Engineer based in Pune, Maharashtra, with experience across junior, DevOps Engineer and freelance/contract work. My focus is on repeatable infrastructure provisioning, CI/CD, containerized application delivery, and practical troubleshooting.</p>
+        <p>My resume includes work with Azure, Azure DevOps, Jenkins, Terraform, Docker, Kubernetes, AKS, Helm, SonarQube, Prometheus, Grafana, Ansible, AWS, Bash and Python. I aim to make deployments more consistent and systems easier to maintain and troubleshoot.</p>
+        <div class="principles">
+          <div><span class="principle-number">01</span><strong>Automate the repeatable</strong><p>Reduce manual steps with versioned pipelines and infrastructure code.</p></div>
+          <div><span class="principle-number">02</span><strong>Make systems observable</strong><p>Use metrics, dashboards and logs to investigate issues methodically.</p></div>
+          <div><span class="principle-number">03</span><strong>Improve continuously</strong><p>Keep workflows understandable, reviewable and easier to maintain.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-heading"><span class="section-index">02 / TOOLKIT</span><h2>Tools I work<br><span class="muted">with.</span></h2></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">☁</div><h3>Cloud & Infrastructure</h3><p>Microsoft Azure · Virtual Machines · Storage Accounts · Azure SQL · Resource Groups · AWS EC2 · S3 · IAM</p><div class="skill-tags"><span>AZURE</span><span>AWS</span></div></article>
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>CI/CD & Source Control</h3><p>Azure DevOps · Azure Pipelines · Jenkins · YAML · Build and release automation · SonarQube</p><div class="skill-tags"><span>CI/CD</span><span>CODE QUALITY</span></div></article>
+        <article class="skill-card"><div class="skill-icon">▤</div><h3>Infrastructure as Code</h3><p>Terraform · Terraform Modules · Infrastructure as Code (IaC) · Ansible</p><div class="skill-tags"><span>TERRAFORM</span><span>ANSIBLE</span></div></article>
+        <article class="skill-card"><div class="skill-icon">◈</div><h3>Containers & Orchestration</h3><p>Docker · Docker Compose · Kubernetes · AKS · Helm · kubectl</p><div class="skill-tags"><span>CONTAINERS</span><span>AKS</span></div></article>
+        <article class="skill-card"><div class="skill-icon">⌁</div><h3>Monitoring & Observability</h3><p>Prometheus · Grafana · Metrics · Dashboards · Alerting</p><div class="skill-tags"><span>METRICS</span><span>VISIBILITY</span></div></article>
+        <article class="skill-card"><div class="skill-icon">$_</div><h3>Systems & Scripting</h3><p>Linux · Windows · Bash · Python · Azure VNet · NSG · IP · DNS · HTTP/HTTPS · Ports · Load Balancing · Application Gateway</p><div class="skill-tags"><span>LINUX</span><span>NETWORKING</span></div></article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="projects">
+      <div class="section-heading"><span class="section-index">03 / SELECTED WORK</span><h2>Practical work.<br><span class="muted">Real-world patterns.</span></h2></div>
+      <p class="section-intro">A selection of DevOps project areas. Add repository links, screenshots and verified outcomes as each project is ready to share.</p>
+      <div class="projects-grid">
+        <article class="project-card project-featured">
+          <div class="project-top"><span class="project-type">01 / INFRASTRUCTURE</span><span class="project-symbol">↗</span></div>
+          <div class="project-visual infra-visual"><div class="infra-node node-a">Azure</div><div class="infra-connector"></div><div class="infra-node node-b">Terraform</div><div class="infra-connector"></div><div class="infra-node node-c">Resources</div><div class="infra-grid"></div></div>
+          <h3>Azure Infrastructure & CI/CD Automation</h3>
+          <p>Provision Azure infrastructure with Terraform and use Azure DevOps variable groups to manage environment-specific configuration values.</p>
+          <div class="project-tags"><span>Azure</span><span>Terraform</span><span>Azure DevOps</span><span>YAML</span></div>
+          <div class="project-links"><a href="https://github.com/" target="_blank" rel="noreferrer">Add repository link <span>↗</span></a><span class="project-status">LINK TO ADD</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-type">02 / CONTAINERS</span><span class="project-symbol">⌘</span></div>
+          <div class="project-visual k8s-visual"><div class="kube-ring">K8s</div><span class="orbit orbit-one">Deploy</span><span class="orbit orbit-two">Service</span><span class="orbit orbit-three">Helm</span></div>
+          <h3>AKS Application Deployment with Helm</h3>
+          <p>Deploy containerized applications to AKS with Kubernetes Deployments, Services, ConfigMaps, Secrets, health probes and resource limits. Use Helm to standardize application deployments.</p>
+          <div class="project-tags"><span>Docker</span><span>AKS</span><span>Kubernetes</span><span>Helm</span></div>
+          <div class="project-links"><a href="https://github.com/" target="_blank" rel="noreferrer">Add repository link <span>↗</span></a><span class="project-status">LINK TO ADD</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-type">03 / OBSERVABILITY</span><span class="project-symbol">⌁</span></div>
+          <div class="project-visual monitor-visual"><div class="chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="chart-line"></div><div class="chart-caption">METRICS / HEALTH / ALERTS</div></div>
+          <h3>Kubernetes Monitoring with Prometheus & Grafana</h3>
+          <p>Use Prometheus and Grafana dashboards and alerts to monitor CPU, memory, pod availability and container performance.</p>
+          <div class="project-tags"><span>Prometheus</span><span>Grafana</span><span>Kubernetes</span></div>
+          <div class="project-links"><a href="https://github.com/" target="_blank" rel="noreferrer">Add repository link <span>↗</span></a><span class="project-status">LINK TO ADD</span></div>
+        </article>
+      </div>
+      <p class="honesty-note"><span>↳</span> Before publishing, make sure each project description matches work you have actually completed. Replace the placeholder repository links with your own repositories.</p>
+    </section>
+
+
+    <section class="section-wrap section-block experience-section" id="experience">
+      <div class="section-heading"><span class="section-index">04 / EXPERIENCE</span><h2>Experience built<br><span class="muted">through delivery.</span></h2></div>
+      <div class="experience-list">
+        <article class="experience-item">
+          <div class="experience-date">JAN 2025 — JUL 2026</div>
+          <div class="experience-main"><div class="experience-title-row"><h3>Freelance DevOps Engineer</h3><span class="experience-type">Independent / Contract</span></div>
+            <ul><li>Delivered DevOps and cloud infrastructure support on short-term projects with a small team, including CI/CD setup and containerized application deployment.</li><li>Provisioned client-project infrastructure with Terraform, applying Infrastructure as Code for repeatable deployments.</li><li>Set up CI/CD pipelines and Docker-based workflows for small-scale client and personal projects.</li></ul>
+          </div>
+        </article>
+        <article class="experience-item">
+          <div class="experience-date">2022 — 2024</div>
+          <div class="experience-main"><div class="experience-title-row"><h3>DevOps Engineer</h3><span class="experience-type">Barquecon Technology Pvt Ltd</span></div>
+            <ul><li>Designed and implemented CI/CD pipelines, improving deployment efficiency by 35%.</li><li>Provisioned Azure infrastructure using Terraform/IaC, reducing deployment time by 45%.</li><li>Implemented automated testing and SonarQube code-quality checks, contributing to a 15% reduction in production bugs.</li><li>Managed Docker and Kubernetes workloads and enforced Azure Repos branch policies and pull-request build validation.</li></ul>
+          </div>
+        </article>
+        <article class="experience-item">
+          <div class="experience-date">2021 — 2022</div>
+          <div class="experience-main"><div class="experience-title-row"><h3>Jr. DevOps Engineer</h3><span class="experience-type">Barquecon Technology Pvt Ltd</span></div>
+            <ul><li>Assisted with Azure Virtual Machines, Storage Accounts and Azure SQL Databases.</li><li>Automated provisioning and release tasks with Python and Bash to reduce manual steps.</li><li>Monitored infrastructure health, investigated bottlenecks and helped troubleshoot infrastructure issues.</li><li>Built CI/CD pipelines using Jenkins and Azure DevOps.</li></ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block education-section" id="education">
+      <div class="section-heading"><span class="section-index">05 / EDUCATION</span><h2>Foundations<br><span class="muted">that stay useful.</span></h2></div>
+      <div class="education-card"><span class="education-date">2015 — 2019</span><h3>Bachelor of Engineering (B.E.)</h3><p>Computer Engineering</p><div class="education-school">Amrutvahini College of Engineering · Sangamner</div></div>
+    </section>
+
+    <section class="section-wrap section-block journey-section" id="journey">
+      <div class="section-heading"><span class="section-index">06 / HOW I WORK</span><h2>A reliable path<br><span class="muted">from commit to runtime.</span></h2></div>
+      <div class="journey-flow">
+        <div class="journey-step"><span class="journey-num">01</span><div class="journey-icon">⌘</div><h3>Version</h3><p>Git and pull requests</p></div><div class="flow-arrow">→</div>
+        <div class="journey-step"><span class="journey-num">02</span><div class="journey-icon">⚙</div><h3>Validate</h3><p>CI and quality checks</p></div><div class="flow-arrow">→</div>
+        <div class="journey-step"><span class="journey-num">03</span><div class="journey-icon">▣</div><h3>Package</h3><p>Build and containerize</p></div><div class="flow-arrow">→</div>
+        <div class="journey-step"><span class="journey-num">04</span><div class="journey-icon">◉</div><h3>Deploy & observe</h3><p>Release, measure, improve</p></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-wrap contact-inner">
+        <span class="section-index">07 / CONTACT</span>
+        <h2>Let's make delivery<br><span class="gradient-text">work better.</span></h2>
+        <p>Interested in DevOps opportunities, cloud automation, or exchanging ideas about reliable delivery? I'd be happy to connect.</p>
+        <p class="contact-phone">Phone: <a href="tel:+917040452312">+91 70404 52312</a></p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:prajwal.s.gujar@gmail.com">Email me <span>↗</span></a>
+          <a class="button button-secondary" href="assets/Prajwal_Gujar_DevOps_Resume.pdf" download>Download resume <span>↓</span></a>
+          <a class="button button-secondary" href="https://www.linkedin.com/in/prajwalgujar/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+          <a class="button button-secondary" href="https://github.com/" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+        </div>
+        <div class="contact-footnote">PUNE, INDIA <span>·</span> OPEN TO DEVOPS OPPORTUNITIES</div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">pg<span>.</span></span></a><span>Designed to keep things clear, reliable, and maintainable.</span><a href="#home">BACK TO TOP ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
